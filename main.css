@@ -46,6 +46,7 @@ a:visited {
     width: 300px;
     margin-top: 5px;
 }
+
     /* ----- Nav Links ----- */
 
         /* Removes default link style in nav bar */
@@ -172,7 +173,7 @@ a:visited {
     margin-bottom: 20px;
     position: relative;
     animation-name: down;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
     z-index: 1;
 }
@@ -312,6 +313,7 @@ a:visited {
     box-sizing: border-box;
     width: 100%;
     box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    z-index: -1;
 }
 
 .projects-tribute {
